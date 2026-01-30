@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ARBN Token & Contract — Arbion Docs</title>
+  <meta name="theme-color" content="#0b0f1a" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .glass{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.10);backdrop-filter:blur(14px)}
+    body{background:linear-gradient(180deg,#070A12 0%,#0B0F1A 45%,#070A12 100%)}
+    a{word-break:break-word}
+    code{background:rgba(255,255,255,.06);padding:.15rem .35rem;border-radius:.5rem;border:1px solid rgba(255,255,255,.08)}
+  </style>
+</head>
+<body class="min-h-screen text-white">
+  <main class="mx-auto max-w-4xl px-4 py-10">
+    <div class="flex items-center justify-between gap-4">
+      <a href="/arbion-site/docs/" class="text-white/70 hover:text-white">← Docs</a>
+      <a href="/arbion-site/" class="text-white/70 hover:text-white">Site ↗</a>
+    </div>
+
+    <header class="mt-6 glass rounded-3xl p-6">
+      <h1 class="text-3xl font-semibold tracking-tight">Token & Contract</h1>
+      <p class="mt-2 text-white/70">Canonical references for Arbion (ARBN).</p>
+    </header>
+
+    <section class="mt-6 glass rounded-3xl p-6">
+      <h2 class="text-xl font-semibold">Contract address</h2>
+      <p class="mt-2 text-white/70 font-mono break-all">
+        0x16C7eE66633586f781fc47960221DC1bF108906F
+      </p>
+
+      <div class="mt-4 flex flex-col gap-2 text-sm">
+        <a class="underline text-white/80 hover:text-white" target="_blank" rel="noreferrer"
+           href="https://bscscan.com/token/0x16C7eE66633586f781fc47960221DC1bF108906F">
+          BscScan token page ↗
+        </a>
+        <a class="underline text-white/80 hover:text-white" target="_blank" rel="noreferrer"
+           href="https://pancakeswap.finance/swap?outputCurrency=0x16C7eE66633586f781fc47960221DC1bF108906F">
+          Swap on PancakeSwap ↗
+        </a>
+      </div>
+    </section>
+
+    <section class="mt-6 grid md:grid-cols-2 gap-4">
+      <div class="glass rounded-3xl p-6">
+        <h3 class="font-semibold">Basics</h3>
+        <ul class="mt-2 text-sm text-white/70 space-y-2">
+          <li><span class="text-white/60">Symbol:</span> ARBN</li>
+          <li><span class="text-white/60">Network:</span> BNB Chain (Mainnet)</li>
+          <li><span class="text-white/60">Standard:</span> BEP-20 (ERC-20 compatible)</li>
+          <li><span class="text-white/60">Utility focus:</span> Payments + staking perks (planned)</li>
+        </ul>
+      </div>
+
+      <div class="glass rounded-3xl p-6">
+        <h3 class="font-semibold">How to verify ARBN</h3>
+        <ol class="mt-2 text-sm text-white/70 space-y-2 list-decimal list-inside">
+          <li>Always use the contract address above.</li>
+          <li>Confirm it matches the pinned address on the official X account.</li>
+          <li>On PancakeSwap, paste the contract directly (don’t trust search results).</li>
+        </ol>
+      </div>
+    </section>
+
+    <footer class="mt-10 text-xs text-white/50">
+      If any links change, the contract address above remains the source of truth.
+    </footer>
+  </main>
+</body>
+</html>
