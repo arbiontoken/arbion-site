@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>How to Buy Safely — Arbion Docs</title>
+  <meta name="theme-color" content="#0b0f1a" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .glass{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.10);backdrop-filter:blur(14px)}
+    body{background:linear-gradient(180deg,#070A12 0%,#0B0F1A 45%,#070A12 100%)}
+    a{word-break:break-word}
+    code{background:rgba(255,255,255,.06);padding:.15rem .35rem;border-radius:.5rem;border:1px solid rgba(255,255,255,.08)}
+  </style>
+</head>
+<body class="min-h-screen text-white">
+  <main class="mx-auto max-w-4xl px-4 py-10">
+    <div class="flex items-center justify-between gap-4">
+      <a href="/arbion-site/docs/" class="text-white/70 hover:text-white">← Docs</a>
+      <a href="/arbion-site/" class="text-white/70 hover:text-white">Site ↗</a>
+    </div>
+
+    <header class="mt-6 glass rounded-3xl p-6">
+      <h1 class="text-3xl font-semibold tracking-tight">How to Buy ARBN Safely</h1>
+      <p class="mt-2 text-white/70">Avoid fake tokens and minimize mistakes when swapping on-chain.</p>
+    </header>
+
+    <section class="mt-6 glass rounded-3xl p-6">
+      <h2 class="text-xl font-semibold">Always verify the contract</h2>
+      <p class="mt-2 text-sm text-white/70">
+        The only official ARBN contract address:
+      </p>
+      <p class="mt-2 text-sm font-mono break-all">
+        0x16C7eE66633586f781fc47960221DC1bF108906F
+      </p>
+      <div class="mt-3 text-sm">
+        <a class="underline text-white/80 hover:text-white" target="_blank" rel="noreferrer"
+           href="https://bscscan.com/token/0x16C7eE66633586f781fc47960221DC1bF108906F">
+          Verify on BscScan ↗
+        </a>
+      </div>
+    </section>
+
+    <section class="mt-6 glass rounded-3xl p-6">
+      <h2 class="text-xl font-semibold">Step-by-step</h2>
+      <ol class="mt-3 text-sm text-white/70 space-y-2 list-decimal list-inside">
+        <li>Install a wallet (e.g., MetaMask) and switch to BNB Chain.</li>
+        <li>Have a small amount of BNB for gas.</li>
+        <li>Open PancakeSwap swap page.</li>
+        <li>Paste the contract address into the token selector (don’t search by name).</li>
+        <li>Start with a small test swap first.</li>
+      </ol>
+
+      <div class="mt-4 text-sm">
+        <a class="underline text-white/80 hover:text-white" target="_blank" rel="noreferrer"
+           href="https://pancakeswap.finance/swap?outputCurrency=0x16C7eE66633586f781fc47960221DC1bF108906F">
+          Open swap with ARBN pre-filled ↗
+        </a>
+      </div>
+    </section>
+
+    <section class="mt-6 glass rounded-3xl p-6">
+      <h2 class="text-xl font-semibold">Common mistakes</h2>
+      <ul class="mt-3 text-sm text-white/70 space-y-2 list-disc list-inside">
+        <li><b>Wrong network:</b> you must be on BNB Chain mainnet, not testnet.</li>
+        <li><b>Fake token:</b> never trust “ARBN” search results — paste the contract.</li>
+        <li><b>High slippage:</b> small pools can cause big price swings and failed swaps.</li>
+        <li><b>Approval scams:</b> don’t sign unknown approvals on random sites.</li>
+      </ul>
+    </section>
+
+    <footer class="mt-10 text-xs text-white/50">
+      This is not financial advice. On-chain swaps carry risk (slippage, MEV, volatility).
+    </footer>
+  </main>
+</body>
+</html>
